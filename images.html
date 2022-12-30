@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Michael Neiss - Images</title>
+        <link rel="icon" type="image/x-icon" href="Profile.jpg">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <style>
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+
+            /* Create four equal columns that sits next to each other */
+            .column {
+                flex: 25%;
+                max-width: 25%;
+                padding: 0 4px;
+            }
+
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+                max-height: 400px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: var(--backColor4)">
+        <div class="wrapper" style="padding: 20px">
+
+            <!--Navigation bar-->
+            <div id="nav-placeholder"></div>
+
+            <script>
+            $(function(){
+            $("#nav-placeholder").load("navbar.html");
+            });
+            </script>
+            <!--end of Navigation bar-->
+
+            <div class="header" style="background-color: var(--backColor4); margin-top: 60px;">
+                <title-one id="gallery">
+                    Gallery.
+                </title-one>
+            </div>
+
+            <!-- Light Box Image gallary -->
+            <div class="row">
+                <div class="column">
+                    <img src="IMG1.jpg">
+                    <img src="IMG41.jpg">
+                    <img src="IMG2.jpg">
+                    <img src="IMG40.jpg">
+                    <img src="IMG3.jpg">
+                    <img src="IMG39.jpg">
+                    <img src="IMG4.jpg">
+                    <img src="IMG38.jpg">
+                    <img src="IMG5.jpg">
+                </div>
+                <div class="column">
+                    <img src="IMG37.jpg">
+                    <img src="IMG6.jpg">
+                    <img src="IMG36.jpg">
+                    <img src="IMG7.jpg">
+                    <img src="IMG35.jpg">
+                    <img src="IMG8.jpg">
+                    <img src="IMG34.jpg">
+                    <img src="IMG9.jpg">
+                    <img src="IMG33.jpg">
+                    <img src="IMG10.jpg">
+                </div>
+                <div class="column">
+                    <img src="IMG32.jpg">
+                    <img src="IMG11.jpg">
+                    <img src="IMG31.jpg">
+                    <img src="IMG12.jpg">
+                    <img src="IMG30.jpg">
+                    <img src="IMG13.jpg">
+                    <img src="IMG29.jpg">
+                    <img src="IMG14.jpg">
+                    <img src="IMG28.jpg">
+                    <img src="IMG15.jpg">
+                    <img src="IMG27.jpg">
+                    <img src="IMG16.jpg">
+                </div>
+                <div class="column">
+                    <img src="IMG26.jpg">
+                    <img src="IMG17.jpg">
+                    <img src="IMG25.jpg">
+                    <img src="IMG18.jpg">
+                    <img src="IMG24.jpg">
+                    <img src="IMG19.jpg">
+                    <img src="IMG23.jpg">
+                    <img src="IMG20.jpg">
+                    <img src="IMG22.jpg">
+                    <img src="IMG21.jpg">
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

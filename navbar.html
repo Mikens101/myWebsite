@@ -1,0 +1,111 @@
+
+
+<!-- NavBar HTML -->
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+        <!-- OnScreen NavBar -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="nav-link" style="color: white" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/index.html">MICHAEL NEISS</a>
+        <div class="offcanvas offcanvas-start" style="width: 20%;" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+
+            <!-- NavBar Header -->
+            <div class="offcanvas-header" style="background-color: var(--backColor); color: white;">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">NAVIGATION</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- NavBar Body -->
+            <div class="offcanvas-body" style="background-color: var(--backColor); color: white;">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/index.html">Home</a>
+                    </li>
+
+                    <!-- About -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Me</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/about.html#who-am-i">Who Am I?</a></li>
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/about.html#career-aspirations">Career Aspirations</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/about.html#q-&-a">Q & A</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Resume -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/resume.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resume</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/resume.html#achievements">Achievements</a></li>
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/resume.html#leadership">Leadership</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/resume.html#extracurricular-activities">Extracurricular Activities</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Community -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/community.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Community Impact</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/community.html#activities">Activities</a></li>
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/community.html#eagle-scout">Eagle Scout</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/community.html#science-fair">Science Fair</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Images -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/images.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Images</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="https://mikens101-code50-88556057-x5pvx4gvpf6qr5-8080.preview.app.github.dev/images.html#gallery">View Gallery</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/mr.miken101/">Instagram</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Contact -->
+                    <li class="nav-item dropdown">
+                        <button class="nav-link active" style="border: none; background-color: var(--backColor);" onclick="alertContact()">Contact Me</button>
+                        <script>
+                            function alertContact() {
+                                let num = '(203) 535 - 4922';
+                                let email = 'michaelneiss101@gmail.com';
+
+                                alert('Phone Number: ' + num + '\nEmail: ' + email);
+                            }
+                        </script>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- NavBar Footer -->
+            <div class="footer" style="background-color: var(--backColor); padding: 20px; text-align: center;">
+                <h1 style="font-size: 1.4vw;">This is Michael Neiss.</h1>
+                <h2 style="font-size: 1vw;">"If you don't stand for something, you will fall for anything" -Hamilton</h2>
+
+                <a href="https://www.instagram.com/mr.miken101/">
+                    <img style="box-shadow: none; width: 50%; margin-top: 20px; margin-bottom: 2px;" src="Instagram.png" alt="Instagram: @mr.miken101">
+                </a>
+                <a href="https://www.youtube.com/channel/UCGCBjfb7u1MCk7YCrRf25GA">
+                    <img style="box-shadow: none; width: 50%; margin-bottom: 2px;" src="Youtube.png" alt="Youtube: MichaelNeiss">
+                </a>
+                <a href="https://www.facebook.com/MNeiss001">
+                    <img style="box-shadow: none; width: 50%; margin-bottom: 20px;" src="Facebook.png" alt="Facebook: @MNeiss001">
+                </a>
+
+                <h1 style="font-size: 1.4vw; margin-bottom: -5px">Bio.</h1>
+                <h2 style="font-size: 1vw;">
+                    <br>🇺🇸🎺🥁🎧⛷⛵🚴
+                    <br>Guilford HS 23'
+                    <br>Eagle Scout 🦅 (10.25.2019)
+                </h2>
+            </div>
+        </div>
+    </div>
+</nav>
